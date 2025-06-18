@@ -13,7 +13,7 @@ header {
 }
 
 main {
-    background-color: #4E2700;
+    background-color: #693807;
 }
 
 footer {
@@ -84,6 +84,7 @@ body img {
     border-radius: 8px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
     transition: transform 0.3s, box-shadow 0.3s;
+    background-color: #472502;
 }
 
 body img:hover {
