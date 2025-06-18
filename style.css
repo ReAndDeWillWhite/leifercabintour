@@ -105,3 +105,6 @@ body img:hover {
 .carousel {
     padding-bottom: 2em;
 }
+#delite-padding{
+    padding-bottom: 0;
+}
