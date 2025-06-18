@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap');
+
+
+body {
+    font-family: "Playfair", serif;
+    font-optical-sizing: auto;
+    color: aliceblue;
+    font-size: 1.5em;
+}
+
+header {
+    background-color: #D1B96C;
+}
+
+main {
+    background-color: #4E2700;
+}
+
+footer {
+    background-color: #381c00;
+}
+
+main p,
+h2,
+h3,
+pre,
+img {
+    padding: 1em;
+}
+
+pre {
+    font-family: "Playfair", serif;
+
+}
+.pad-nav {
+    padding: 1em;
+}
+
+.header-text {
+    color: #472E14;
+    padding: 0;
+}
+
+.image {
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+
+
+.card {
+    padding: 1em;
+    background-color: #4E2700;
+    color: aliceblue;
+}
+
+.nav {
+    background-color: #D1B96C;
+    padding: 1em;
+}
+
+.book {
+    background-color: #4E2700;
+    padding: 1em;
+}
+
+.navbar {
+    padding: 0;
+}
+
+.color {
+    color: aliceblue;
+}
+
+.carousel {
+    padding: 0 7% 0 7%;
+}
+
+.unger {
+    display: grid;
+    place-items: center;
+}
+
+body img {
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+body img:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 992px) {
+    .unger p {
+        font-size: 1.25rem !important;
+    }
+}
