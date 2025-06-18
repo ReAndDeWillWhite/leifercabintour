@@ -97,3 +97,7 @@ body img:hover {
         font-size: 1.25rem !important;
     }
 }
+
+#frame {
+    background-color: #b8a35f;
+}
