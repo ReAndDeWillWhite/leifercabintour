@@ -84,7 +84,7 @@ body img {
     border-radius: 8px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
     transition: transform 0.3s, box-shadow 0.3s;
-    background-color: #472502;
+    background-color: #522a02;
 }
 
 body img:hover {
@@ -100,4 +100,8 @@ body img:hover {
 
 #frame {
     background-color: #b8a35f;
+}
+
+.carousel {
+    padding-bottom: 2em;
 }
