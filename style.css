@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 body {
     font-family: "Playfair", serif;
@@ -32,6 +31,7 @@ pre {
     font-family: "Playfair", serif;
 
 }
+
 .pad-nav {
     padding: 1em;
 }
@@ -105,6 +105,12 @@ body img:hover {
 .carousel {
     padding-bottom: 2em;
 }
-#delite-padding{
+
+#delite-padding {
     padding-bottom: 0;
+}
+.pt-serif-bold {
+  font-family: "PT Serif", serif;
+  font-weight: 700;
+  font-style: normal;
 }
