@@ -1,8 +1,5 @@
-<<<<<<< HEAD:style/style.css
 @import url('https://fonts.googleapis.com/css2?family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap');
-=======
 @import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
->>>>>>> 1041ef3cb505a27bd06a17069db37672e0197b84:style.css
 
 body {
     font-family: "Playfair", serif;
@@ -128,14 +125,14 @@ main img:hover {
 #delite-padding {
     padding-bottom: 0;
 }
-<<<<<<< HEAD:style/style.css
 
 #delite-padding-footer {
     padding: 0;
-=======
+
+}
+
 .pt-serif-bold {
-  font-family: "PT Serif", serif;
-  font-weight: 700;
-  font-style: normal;
->>>>>>> 1041ef3cb505a27bd06a17069db37672e0197b84:style.css
+    font-family: "PT Serif", serif;
+    font-weight: 700;
+    font-style: normal;
 }
