@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap');
 
-
 body {
     font-family: "Playfair", serif;
     font-optical-sizing: auto;
@@ -32,6 +31,7 @@ pre {
     font-family: "Playfair", serif;
 
 }
+
 .pad-nav {
     padding: 1em;
 }
@@ -46,6 +46,9 @@ pre {
     padding-bottom: 35px;
 }
 
+.text-width {
+    text-align: justify;
+}
 
 .card {
     padding: 1em;
@@ -80,18 +83,6 @@ pre {
     place-items: center;
 }
 
-body img {
-    border-radius: 8px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
-    transition: transform 0.3s, box-shadow 0.3s;
-    background-color: #522a02;
-}
-
-body img:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
-}
-
 @media (max-width: 992px) {
     .unger p {
         font-size: 1.25rem !important;
@@ -105,6 +96,11 @@ body img:hover {
 .carousel {
     padding-bottom: 2em;
 }
-#delite-padding{
+
+#delite-padding {
     padding-bottom: 0;
+}
+
+#delite-padding-footer {
+    padding: 0;
 }
