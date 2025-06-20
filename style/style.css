@@ -159,3 +159,7 @@ main img:hover {
 .text-l {
     text-align: left;
 }
+
+.top-block {
+    vertical-align: top;
+}
